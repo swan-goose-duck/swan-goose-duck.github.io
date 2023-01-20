@@ -22,10 +22,10 @@ footer			{bottom:0; position:relative; border-top:1.5px solid Silver; font-size:
 header,footer   {min-width:720px; width:100%;}
 ul li           {display: inline;}
 
-a:link			{color:DarkBlue; text-decoration:none;}
-a:active		{color:DarkBlue;}
+a:link			{color:rgb(8, 101, 207); text-decoration:none;}
+a:active		{color:rgb(8, 101, 207);background:Silver;}
 a:hover			{background:Silver;}
-a:visited		{color:DarkBlue;}
+a:visited		{color:rgb(8, 101, 207);}
 
 h1			    {font-size:2.0em;}
 h2			    {font-size:1.5em;}
