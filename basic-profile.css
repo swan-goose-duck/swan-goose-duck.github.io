@@ -12,7 +12,7 @@ text-align: center;
 } 
 
 html			{min-height:100%; margin:auto; overflow-y:scroll; padding:20px; width:800px;}
-body			{color:#121212; font-family:Cambria, serif; font-size:120%; line-height:1.5em;}
+body			{color:#121212; font-family:Computer Modern, serif; font-size:120%; line-height:1.5em;}
 html, body		{position:relative;}
 
 #content		{padding:10px 0 40px 0; position:relative;}
