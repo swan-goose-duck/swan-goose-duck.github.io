@@ -1,24 +1,92 @@
-*{ border:0; margin:0; outline:0; padding:2.5;}
+* {
+    border: 0;
+    margin: 0;
+    outline: 0;
+    padding: 2.5;
+}
 
-html			     {min-height:100%; margin:auto; overflow: hidden; padding:20px; width:800px;}
-body			     {color:#121212; font-family:Computer Modern, serif; font-size:120%; line-height:1.5em;}
-html, body		{position:relative;}
+html {
+    min-height: 100%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    width: 800px;
+}
 
-/* #content		     {padding:10px 0 40px 0; position:relative;} */
+body {
+    color: #121212;
+    font-family: "Computer Modern", serif;
+    font-size: 120%;
+    line-height: 1.5em;
+}
 
-header			{padding:1px 0 4px 0; position:relative; top:0; border-bottom:1.5px solid Silver;}
-footer			{bottom:0; position:relative; border-top:1.5px solid Silver; font-size:80%;}
-header,footer       {min-width:720px; width:100%;}
-ul li               {display: inline-block; text-align: center;}
+html,
+body {
+    position: relative;
+}
 
-a:link			{color:rgb(8, 101, 207); text-decoration:none;}
+/* #content {
+    padding: 10px 0 40px 0;
+    position: relative;
+} */
 
-h1			    {font-size:2.0em;}
-h2			    {font-size:1.5em;}
-h3			    {font-size:1.1em;}
-h4			    {font-size:0.9em;}
-/* h1,h2,h3		    {font-weight:bolder; line-height:1.0em; padding:10px 0;} */
+header {
+    padding: 1px 0 4px 0;
+    position: relative;
+    top: 0;
+    border-bottom: 1.5px solid silver;
+}
 
+footer {
+    bottom: 0;
+    position: relative;
+    border-top: 1.5px solid silver;
+    font-size: 80%;
+}
 
-#image			{float:right; padding:9px;}
-#image:hover	     {background:Silver;}
+header,
+footer {
+    min-width: 720px;
+    width: 100%;
+}
+
+ul li {
+    display: inline-block;
+    text-align: center;
+}
+
+a:link {
+    color: rgb(8, 101, 207);
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2.0em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.1em;
+}
+
+h4 {
+    font-size: 0.9em;
+}
+
+/* h1, h2, h3 {
+    font-weight: bolder;
+    line-height: 1.0em;
+    padding: 10px 0;
+} */
+
+#image {
+    float: right;
+    padding: 9px;
+}
+
+#image:hover {
+    background: silver;
+}
